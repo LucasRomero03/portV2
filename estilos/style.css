@@ -1,0 +1,158 @@
+body {
+    margin-bottom: -8px;
+
+    background-color: rgb(30, 30, 30);
+}
+
+.tags {
+    color: #767474;
+    font-size: 15px;
+}
+
+#texto-pagino-p1 {
+    font-style: oblique;
+    margin-top: -16px;
+    margin-left: 10px;
+    padding-top: 50px;
+    margin-bottom: -20px;
+}
+
+#texto-pagino-p2 {
+    font-style: oblique;
+    margin-left: 20px;
+    margin-bottom: 130px;
+}
+
+#texto-pagino-p3 {
+    margin-left: 20px;
+    font-style: oblique;
+    margin-bottom: -20px;
+
+}
+
+#texto-pagino-p4 {
+    color: white;
+    margin-bottom: -90px;
+    margin-left: 35px;
+}
+
+#texto-pagino-p5 {
+    color: white;
+    margin-bottom: -120px;
+    margin-left: 35px;
+}
+
+#texto-pagino-p5-1 {
+    color: white;
+    margin-bottom: -20px;
+    margin-left: 35px;
+}
+
+#texto-pagino-p6 {
+    margin-top: -39px;
+    margin-left: 400px;
+    font-style: oblique;
+    
+}
+
+#texto-pagino-p7 {
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    font-style: oblique;
+
+}
+
+#texto-pagino-p8 {
+    color: #767474;
+    margin-bottom: -20px;
+    margin-left: 35px;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+#texto-pagino-p9 {
+    margin-left: 20px;
+    font-style: oblique;
+}
+
+
+
+#texto-pagina {
+    
+    width: 500px;
+    
+    margin-left: 130px;
+    margin-top: -100vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+}
+
+#sidebar {
+    background-color: rgba(22, 22, 22, 0.531);
+    height: 100vh;
+    /* usa aa  altura total dda janela*/
+    width: 125px;
+    margin: -10px;
+    text-align: center;
+}
+
+#sidebar-menu ul {
+    margin-top: 150px;
+    height: 30px;
+    width: 75px;
+    padding-left: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: #767474;
+
+
+
+}
+
+#sidebar-menu ul p {
+    border: 1px solid #69676717;
+    border-right: 0px;
+    border-left: 0px;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 2px;
+    margin-bottom: -10px;
+}
+
+#logo {
+    width: 125px;
+    height: 90px;
+}
+
+#plogo {
+    height: 30px;
+    width: 100px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: -20px !important;
+    color: white;
+
+}
+#contatos > a > img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 200vh;
+    top: -430px;
+}
+
+
+/* footer{
+    position: relative;
+    top: 35vh;
+    width: 155px;
+    font-size: 13px;
+    margin-left: -4px;
+} */
