@@ -148,6 +148,19 @@ body {
     top: -430px;
 }
 
+#meroshow{
+position: relative;
+width: 470px;
+
+top: -420px;
+left: 820px;
+bottom: 0px;
+margin-bottom: -300px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.052); 
+overflow: hidden;
+}
+
+
 
 /* footer{
     position: relative;
