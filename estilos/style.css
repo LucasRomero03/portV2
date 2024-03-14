@@ -141,11 +141,14 @@ body {
 
 }
 #contatos > a > img{
-    height: 30px;
     width: 30px;
+    height: 30px;
+
+}
+#contatos{
     position: relative;
-    left: 200vh;
-    top: -430px;
+    left: 1400px;
+    top: -280px;
 }
 
 #meroshow{
