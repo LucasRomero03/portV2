@@ -15,6 +15,7 @@ body {
     margin-left: 10px;
     padding-top: 50px;
     margin-bottom: -20px;
+        
 }
 
 #texto-pagino-p2 {
@@ -86,7 +87,8 @@ body {
     margin-top: -100vh;
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
-
+    position: fixed;
+    top: 100%;
 }
 
 #sidebar {
@@ -94,8 +96,12 @@ body {
     height: 100vh;
     /* usa aa  altura total dda janela*/
     width: 125px;
-    margin: -10px;
+    /* margin: -10px; */
+    margin-left: -10px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
 #sidebar-menu ul {
@@ -147,15 +153,15 @@ body {
 }
 #contatos{
     position: relative;
-    left: 1200px;
+    left: 1000%;
     top: -280px;
 }
 
 #meroshow{
-position: relative;
+position: fixed;
 width: 470px;
 
-top: -420px;
+top: 100px;
 left: 820px;
 bottom: 0px;
 margin-bottom: -300px;
