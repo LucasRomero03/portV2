@@ -8,6 +8,12 @@ body {
     color: #767474;
     font-size: 15px;
 }
+.notags1{
+    font-size: 20px;
+}
+.notags{
+    font-size: 80px;
+}
 
 #texto-pagino-p1 {
     font-style: oblique;
@@ -225,6 +231,12 @@ a {
         color: white;
     
     }
+    .notags1{
+        font-size: 20px;
+    }
+    .notags{
+        font-size: 80px;
+    }
     #sidebar-menu ul {
         margin-top: 150px;
         height: 30px;
@@ -241,7 +253,7 @@ a {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 580px)   {
     #contatos {
         position: relative;
         left: 0%;
