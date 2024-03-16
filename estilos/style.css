@@ -15,7 +15,7 @@ body {
     margin-left: 10px;
     padding-top: 50px;
     margin-bottom: -20px;
-        
+
 }
 
 #texto-pagino-p2 {
@@ -53,7 +53,7 @@ body {
     margin-top: -39px;
     margin-left: 400px;
     font-style: oblique;
-    
+
 }
 
 #texto-pagino-p7 {
@@ -80,9 +80,9 @@ body {
 
 
 #texto-pagina {
-    
+
     width: 500px;
-    
+
     margin-left: 130px;
     margin-top: -100vh;
     font-family: "Bebas Neue", sans-serif;
@@ -96,7 +96,7 @@ body {
     height: 100vh;
     /* usa aa  altura total dda janela*/
     width: 125px;
-    /* margin: -10px; */
+
     margin-left: -10px;
     text-align: center;
     position: fixed;
@@ -128,6 +128,11 @@ body {
     margin-bottom: -10px;
 }
 
+a {
+    text-decoration: none;
+    color: #767474;
+}
+
 #logo {
     width: 125px;
     height: 90px;
@@ -146,29 +151,95 @@ body {
     color: white;
 
 }
-#contatos > a > img{
+
+#contatos>a>img {
     width: 30px;
     height: 30px;
 
 }
-#contatos{
+
+#contatos {
     position: relative;
-    left: 1000%;
+    left: 980%;
     top: -280px;
 }
 
-#meroshow{
-position: fixed;
-width: 470px;
+#meroshow {
+    position: fixed;
+    width: 470px;
 
-top: 100px;
-left: 820px;
-bottom: 0px;
-margin-bottom: -300px;
-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.052); 
-overflow: hidden;
+    top: 100px;
+    left: 820px;
+    bottom: 0px;
+    margin-bottom: -300px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.052);
+    overflow: hidden;
 }
 
+@media (min-width : 1400px) {
+    #contatos {
+        position: relative;
+        left: 930%;
+        top: -280px;
+    }
+
+    #sidebar {
+        background-color: rgba(22, 22, 22, 0.531);
+        height: 100vh;
+        /* usa aa  altura total dda janela*/
+        width: 150px;
+
+        margin-left: -10px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    #logo {
+        width: 150px;
+        height: 90px;
+    }
+    #plogo {
+        height: 30px;
+        width: 100px;
+        padding-left: 15px;
+        padding-right: 10px;
+        background-color: black;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        margin-top: -20px !important;
+        color: white;
+    
+    }#plogo {
+        height: 30px;
+        width: 125px;
+        padding-left: 15px;
+        padding-right: 10px;
+        background-color: black;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        margin-top: -20px !important;
+        color: white;
+    
+    }
+    #sidebar-menu ul {
+        margin-top: 150px;
+        height: 30px;
+        width: 100px;
+        padding-left: 25px;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        color: #767474;
+    
+    
+    
+    }
+
+}
 
 
 /* footer{

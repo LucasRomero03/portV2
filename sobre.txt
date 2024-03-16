@@ -1,0 +1,18 @@
+
+Claro, vou fazer algumas melhorias e adições com base nas suas últimas informações. Aqui está a versão atualizada da seção "Sobre Mim":
+
+Sobre Mim
+Olá! Meu nome é Lucas Romero Emílio Correa, e sou um entusiasta da tecnologia e da computação. Estou atualmente no 8º período do curso de Engenharia da Computação na Escola Politécnica de Pernambuco.
+
+Experiência Profissional
+Durante minha jornada acadêmica, tive a oportunidade de trabalhar informalmente para a Federação de Jiu-Jitsu de Pernambuco (IFJPE), onde desempenhei o papel de montador de eventos na área de tecnologia. Minhas responsabilidades incluíam a configuração e manutenção dos sistemas de informática, suporte técnico durante os eventos e a gestão do site e aplicativo responsáveis pelos chaveamentos das lutas e placares.
+
+Formação Acadêmica
+Iniciei minha trajetória acadêmica na Universidade Federal de Pernambuco (UFPE), cursando Engenharia de Abi Informática. Após um ano de estudos, decidi transferir-me para a Escola Politécnica de Pernambuco em busca de uma formação mais alinhada aos meus interesses e paixões.
+
+Na Escola Politécnica, mergulhei profundamente no estudo de disciplinas como Banco de Dados, Engenharia de Software, Lógica e Estrutura de Dados em Java, além de explorar o desenvolvimento back-end em Groovy e a linguagem Kotlin para o paradigma funcional.
+
+Objetivos Profissionais
+Meu principal objetivo é ingressar no mercado de trabalho e aplicar, no mundo real, todo o conhecimento e experiência que adquiri ao longo da minha jornada acadêmica. Estou em busca de oportunidades desafiadoras que me permitam crescer profissionalmente e contribuir para projetos inovadores.
+
+Além do meu interesse pela tecnologia, sou apaixonado por cachorros, leitura, música e esportes como jiu-jitsu, musculação e skate. Estou ansioso para explorar novas oportunidades e enfrentar desafios emocionantes no campo da tecnologia.
