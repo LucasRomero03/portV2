@@ -1,18 +1,11 @@
+Olá! Me chamo Lucas Romero Emílio Correa, tenho 22 anos e nasci em Recife, Pernambuco. Atualmente, estudo Engenharia da Computação na Escola Politécnica de Pernambuco, pela UPE, e estou prestes a entrar no 7º período.
 
+Desde cedo, desenvolvi uma paixão pela programação e estou focado em me tornar um desenvolvedor fullstack. Embora me interesse bastante pela parte visual e interativa do desenvolvimento, tenho apreço também pelo back end. Minhas linguagens preferidas incluem HTML, CSS, JavaScript e Java.
 
+Além da tecnologia, sou apaixonado por esportes como jiu-jitsu, skate e musculação, e adoro explorar diferentes gêneros musicais e estar em contato com a natureza.
 
-Sobre Mim
-Olá! Meu nome é Lucas Romero Emílio Correa, e sou um entusiasta da tecnologia e da computação. Estou atualmente no 8º período do curso de Engenharia da Computação na Escola Politécnica de Pernambuco.
+Com relação à minha formação acadêmica, cursei disciplinas como Banco de Dados, Engenharia de Software, Lógica de Programação, Estrutura de Dados, Linguagem de Programação Orientada a Objetos (LPOO) e Linguagem de Programação Funcional (LPF), esta última em Kotlin. Também adquiri conhecimentos em redes de computadores e Linguagem de Programação Imperativa (LPI), usando C.
 
-Experiência Profissional
-Durante minha jornada acadêmica, tive a oportunidade de trabalhar informalmente para a Federação de Jiu-Jitsu de Pernambuco (IFJPE), onde desempenhei o papel de montador de eventos na área de tecnologia. Minhas responsabilidades incluíam a configuração e manutenção dos sistemas de informática, suporte técnico durante os eventos e a gestão do site e aplicativo responsáveis pelos chaveamentos das lutas e placares.
+Minha experiência profissional inclui um período como suporte de TI na Federação de Jiu-Jitsu de Pernambuco (FJJPE), onde, após um ano, assumi a responsabilidade pela manutenção do site deles.
 
-Formação Acadêmica
-Iniciei minha trajetória acadêmica na Universidade Federal de Pernambuco (UFPE), cursando Engenharia de Abi Informática. Após um ano de estudos, decidi transferir-me para a Escola Politécnica de Pernambuco em busca de uma formação mais alinhada aos meus interesses e paixões.
-
-Na Escola Politécnica, mergulhei profundamente no estudo de disciplinas como Banco de Dados, Engenharia de Software, Lógica e Estrutura de Dados em Java, além de explorar o desenvolvimento back-end em Groovy e a linguagem Kotlin para o paradigma funcional.
-
-Objetivos Profissionais
-Meu principal objetivo é ingressar no mercado de trabalho e aplicar, no mundo real, todo o conhecimento e experiência que adquiri ao longo da minha jornada acadêmica. Estou em busca de oportunidades desafiadoras que me permitam crescer profissionalmente e contribuir para projetos inovadores.
-
-Além do meu interesse pela tecnologia, sou apaixonado por cachorros, leitura, música e esportes como jiu-jitsu, musculação e skate. Estou ansioso para explorar novas oportunidades e enfrentar desafios emocionantes no campo da tecnologia.
+Meus objetivos profissionais giram em torno do constante desenvolvimento de minhas habilidades na área de desenvolvimento. Busco desafios que me tirem da zona de conforto e a oportunidade de fazer parte de uma equipe talentosa e colaborativa, onde possa não só aplicar meus conhecimentos, mas também aprender e crescer ao lado de profissionais experientes, visando tanto meu desenvolvimento pessoal quanto profissional.
