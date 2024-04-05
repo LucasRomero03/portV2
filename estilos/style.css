@@ -6,7 +6,80 @@
     height: 100vh;
     margin: -8px -8px;
     font-family: system-ui, sans-serif;
+    position: relative;
     gap: 1%;
+
+}
+.container>h1{
+    position: absolute;
+    top: 10px;
+    left: calc(100vw/2 - 330px);
+    transition: all 2s ease-in-out;
+    width: 100%;
+    max-width: fit-content;
+    min-width: 100px;
+    z-index: 2;
+    
+    box-shadow: 0px 0px 10px #303030,0px 0px 20px #303030;
+    background: #303030;
+    color: transparent;
+    
+}
+.container> h1::after{
+    content: '🔜';
+    position: absolute;
+   
+    color: white;
+    top: 0px;
+    left: -40px;
+    transition: all 2s ease-in;
+    opacity: 100%;
+}
+.container> h1:hover::after{
+    content: '🔜';
+    position: absolute;
+    opacity: 0%;
+    left: 705px;
+    
+    
+    
+}
+.container>h1:hover{
+    color: white;
+   
+   box-shadow: none;
+   
+    text-shadow: 0px 0px 10px white, 0px 0px 20px white,0px 0px 40px white;
+}
+.container>h1::before{
+    position: absolute;
+    content: 'Divirta-se arrastando o mouse e descobrindo...';
+    color: transparent;
+    width: fit-content;
+ 
+    background-size: contain;
+    transition: all 2s ease-in-out;
+    opacity: 100%;
+    text-shadow: none;
+    border-radius: 10px;
+    
+
+
+}
+.container>h1:hover:before{
+    position: absolute;
+    content: '';
+    color: transparent;
+    background: rgb(57, 57, 57);
+    width: 10px;
+    opacity: 0%;
+    
+    
+   
+    
+    text-shadow: none;
+
+
 
 }
 
@@ -19,6 +92,7 @@
     flex-basis: 9%;
     text-align: center;
     gap: 10px;
+    box-shadow: 0px 0px 10px #ffffff39, 0px 0px 20px #1A1A1A, 0px 0px 40px #1A1A1A ;
 }
 
 .div-side>button>a {
@@ -27,9 +101,29 @@
     color: white;
 }
 
+.btnhome {
+
+    transform: scale(0.9);
+}
+
+.btnsobre {
+
+    transform: scale(0.9);
+}
+
+.btnprojetos {
+
+    transform: scale(0.9);
+}
+
+.btncontato {
+
+    transform: scale(0.9);
+}
+
 .div-side>button {
     background-color: #1A1A1A;
-    box-shadow: 0px 0px 0px black, 0 0 3px rgb(183, 183, 186), 0 0 1px rgba(255, 255, 255, 0.835);
+    /* box-shadow: 0px 0px 0px black, 0 0 3px rgb(183, 183, 186), 0 0 1px rgba(255, 255, 255, 0.835); */
     border: 1px rgba(56, 55, 55, 0.123) solid;
     border-left: 0px;
     border-right: 0px;
@@ -37,6 +131,9 @@
     margin-right: 5px;
     border-radius: 30px;
     transition: all 0.9s ease-in-out;
+    position: relative;
+    box-shadow: 0px 0px 10px #a6a3a3d6, 0px 0px 20px #1A1A1A, 0px 0px 40px #1A1A1A ;
+    
 
 }
 
@@ -54,10 +151,17 @@
 }
 
 .div-side-logo {
-
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+.div-side-logo:hover {
+    transform: scale(0.8);
+    transform: rotate(360deg);
 
     width: 100%;
 }
+
 
 .div-side-plogo {
     background-color: black;
@@ -86,12 +190,15 @@
     /* background-color: rgb(30, 30, 30); */
     flex-basis: 31%;
     flex-grow: 1;
+    position: relative;
+    
 }
 
 .div-text>p {
     margin: 0px;
     padding: 0px;
     transition: all 1s ease-in-out;
+   
 }
 
 .div-text>p:hover {
@@ -122,12 +229,14 @@
     position: relative;
     top: 2%;
     left: 1%;
+    width: fit-content;
 }
 
 .p2 {
     position: relative;
     top: 2.5%;
     left: 2%;
+    width: max-content;
 }
 
 .p3 {
@@ -233,7 +342,7 @@
 
 }
 
-.div-contact>div>img {
+.div-contact>div>a>img {
     position: relative;
     height: 30%;
     width: 30%;
@@ -243,7 +352,7 @@
 
 }
 
-.div-contact>div>img:hover {
+.div-contact>div>a>img:hover {
 
     background-color: aliceblue;
     box-shadow: 0 5px 50px rgb(255, 255, 255);
@@ -261,9 +370,10 @@
     position: relative;
 
 }
-.sobremim-texto > h1{
+
+.sobremim-texto>h1 {
     position: relative;
-    
+
 }
 
 .sobremim-texto>h1::after {
@@ -271,18 +381,19 @@
     position: absolute;
     left: 0;
     transition: all 1s ease-in-out;
-    
-    
-    
+
+
+
 
 }
+
 .sobremim-texto>h1:hover::after {
     content: 'SOBRE MIM';
     position: absolute;
     left: 500px;
-    
-   
-    
+
+
+
 
 }
 
@@ -336,15 +447,22 @@
 .hskills>ul {
     top: 10%;
     padding: 0;
+    
     position: absolute;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     list-style: none;
-    justify-content: space-around;
-
-    width: 80%;
-    height: 60%;
+    justify-content: center;
+    overflow-x: hidden;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    min-height: 78%;
     left: 8%;
+    overflow-y: scroll;
+    
+    
 
 
 
@@ -352,13 +470,25 @@
 
 }
 
+.hskills>ul::-webkit-scrollbar {
+    width: 0px;
+}
+
+.hskills>ul::-webkit-scrollbar-thumb {}
+
+
 .hskills>ul>li {
     width: 60px;
     height: 60px;
+    max-width: 60px;
+    max-height: 60px;
     position: relative;
     top: 50px;
-    margin: 5px 10px;
-    flex-wrap: wrap;
+    flex-grow: 1;
+
+
+
+
     background-image: url(../images/code-simple.png);
     background-size: contain;
     background-color: white;
@@ -371,16 +501,19 @@
     transition: 0.3s ease-in-out;
     text-align: center;
     transform: rotate(-180deg);
-    
+    margin: 0 20px;
+
 
 }
 
 .hskills>ul>li>span {
     position: absolute;
-    top:20px;
-    right: 0px;
+    text-align: center;
+    top: 0px;
+    
     left: 0px;
-
+    width: auto;
+    height: auto;
 
 
 
@@ -421,10 +554,10 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 1rem;
     width: 80%;
-    height: 60%;
+    height: auto;
     left: 8%;
 
 
@@ -438,8 +571,8 @@
     height: 60px;
     position: relative;
     top: 50px;
-    margin: 5px 10px;
-    flex-wrap: wrap;
+
+
     background-image: url(../images/skill-alt.png);
     background-size: contain;
     background-color: white;
@@ -482,7 +615,7 @@
     box-shadow: none;
 
     overflow: visible;
-   
+
 
 
 }
@@ -554,7 +687,7 @@
 
 .content-p>h1 {
     position: absolute;
-    
+
     color: white;
     transition: all 1s ease-in-out;
 
@@ -598,7 +731,7 @@
     width: 100%;
     height: 89%;
     position: relative;
-    
+
 
 }
 
@@ -606,7 +739,7 @@
     position: absolute;
     display: flex;
     width: 90%;
-    
+
     height: 90vh;
     max-height: 90%;
     flex-wrap: wrap-reverse;
@@ -624,26 +757,23 @@
 
 /* tirar scroll bar  */
 
-.box-projetos::-webkit-scrollbar {  
+.box-projetos::-webkit-scrollbar {
     background-color: #1A1A1A;
     border-radius: 10px;
-    
-    
+
+
 
     width: 10px;
 
-  }
+}
+
 /* editar scroll */
 
-  .box-projetos::-webkit-scrollbar-thumb {  
+.box-projetos::-webkit-scrollbar-thumb {
     background-color: #ffffff;
     border-radius: 10px;
-    
-    
 
-   
-
-  }
+}
 
 .projetos {
     position: relative;
@@ -651,8 +781,8 @@
     flex-grow: 1;
     min-width: 200px;
     max-width: 80%;
-    
-   
+
+
     height: 200px;
     background-color: white;
     transition: all 1s ease-in-out;
@@ -678,7 +808,7 @@
 
 .box>img {
     position: absolute;
-    
+
     width: 100%;
     height: 80%;
     top: 0;
@@ -696,6 +826,49 @@
 
 
 }
+
+/* pagina contato */
+
+.btnctt::after{
+    content: '';
+    transition: all 1s ease-in-out;
+    opacity: 0%;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+}
+.btnctt:hover::after {
+    content: ' Sera redirecionado para meu Whats';
+    
+    color: #282828;
+    position: absolute;
+    transform: translate(15px, 80px);
+    text-align: center;
+    width: 100px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    
+   word-spacing: 0px;
+   font-weight: bold;
+    
+    
+
+    opacity: 100%;
+   
+    
+
+   
+   
+
+    
+    
+}
+
+
+
 
 
 
